@@ -1,0 +1,418 @@
+/* UPPER: HEADER AND UPPER-PART */
+/* HEADER: LOGO, NAVBAR AND ICONS */
+
+.upper {
+    height: 932px;
+}
+
+.upper::before {
+    height: 944px;
+}
+
+/* UPPER: UPPER-PART */
+/* UPPER-PART: INTRO, CIRCLE AND SERVICES */
+
+.upper-part {
+    padding: 3px 94px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.circle {
+    /* width: 330px;
+    height: 315px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #2d2d39; */
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+/* .my-dp img {
+    width: 330px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    z-index: 2;
+} */
+
+.services {
+    margin-top: 15px;
+}
+
+/* .services .item {
+    width: 322px;
+} */
+.mid-container {
+    margin: 0 auto;
+    padding: 18px;
+    position: absolute;
+    top: 906px;
+    left: 298px;
+}
+
+.mid-container-items {
+    margin: 0 35px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOWER: LOWER-PART AND BOX PARENT */
+/* LOWER-PART: USER-NEEDS AND PROJECT-CONTAINER */
+
+/* .lower-part {
+    justify-content: center;
+} */
+
+.user-needs {
+    width: 100%;
+    margin: 23px 0;
+}
+
+.user-needs h3 {
+    font-size: 1.5rem;
+}
+
+.user-needs>p {
+    width: 80%;
+    /* text-align: center; */
+}
+
+/* .mywork-container {
+    justify-content: center;
+}
+
+.mywork-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* BOX-PARENT: BOX */
+.box-parent .box {
+    margin: 15px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .upper {
+        height: 894px;
+    }
+
+    .upper::before {
+        height: 907px;
+    }
+
+    header {
+        /* width: 600px; */
+        justify-content: space-around;
+        align-items: center;
+        margin: 12px auto;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+        /* font-size: 1rem; */
+    }
+
+    .icons {
+        position: static;
+        /* align-items: center; */
+    }
+
+    .icons img {
+        padding: 0 5px;
+    }
+
+    .intro .name {
+        font-size: 2.5rem;
+    }
+
+    .mid-container {
+        width: 353px;
+        padding: 10px;
+        left: 325.5px;
+        top: 854px;
+    }
+
+    .mid-container-items {
+        /* width: 100px;
+        height: 30px; */
+        margin: 2px 20px;
+        /* padding: 4px 27px; */
+    }
+
+    /* .upper-part {
+        padding: 0 30px;
+    } */
+
+    /* .services .item {
+        width: 322px;
+    }
+
+    .circle {
+        width: 325px;
+        height: 310px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: #2d2d39;
+        position: absolute;
+        left: 264px;
+        top: -15px;
+    }
+
+    .my-dp img {
+        width: 325px;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        z-index: 2;
+    } */
+}
+
+@media screen and (max-width:768px) {
+
+    .upper {
+        height: 878px;
+    }
+
+    .upper::before {
+        height: 890px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .icons {
+        padding: 5px;
+    }
+
+    .upper-part {
+        margin: 15px 30px 0px;
+        padding: 3px 30px 23px;
+    }
+
+    .intro .name {
+        font-size: 2rem;
+    }
+
+    .intro .description {
+        width: 100%;
+    }
+
+    .services .item {
+        width: 80%;
+    }
+
+    .circle {
+        width: 295px;
+        height: 280px;
+        position: relative;
+        top: 23px;
+    }
+
+    .my-dp img {
+        width: 305px;
+    }
+
+    .lower-part {
+        margin: 0px 30px;
+        padding: 90px 30px 0;
+    }
+
+    .project-container hr {
+        width: 377px;
+    }
+
+    .box-parent {
+        margin: 50px 30px;
+        padding: 13px 30px;
+    }
+
+    .mid-container {
+        width: 205px;
+        top: 836px;
+        left: 250px;
+        /* padding: 4px; */
+        /* justify-content: space-between; */
+    }
+
+    .mid-container-items {
+        margin: 2px 10px;
+    }
+
+    /* .type-of-work h4 {
+        font-size: 1.1rem;
+    }
+
+    .type-of-work p {
+        font-size: 0.8rem;
+    } */
+
+    /* .upper {
+        height: 665px;
+    }
+
+    .upper::before {
+        height: 678px;
+    } */
+}
+
+@media screen and (max-width:480px) {
+    .upper {
+        height: 838px;
+    }
+
+    .upper::before {
+        height: 851px;
+    }
+
+    .logo h2 {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+    }
+
+    .upper-part {
+        padding: 3px 15px 23px;
+    }
+
+    .intro .name {
+        font-size: 1.5rem;
+    }
+
+    .circle {
+        width: 285px;
+        height: 270px;
+        position: relative;
+        top: 23px;
+    }
+
+    .my-dp img {
+        width: 295px;
+    }
+
+    .mid-container {
+        left: 127.5px;
+        top: 791px;
+    }
+
+    .lower-part {
+        padding: 90px 15px 0;
+    }
+
+    .project-container hr {
+        width: 280px;
+    }
+
+    /* .circle {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 458px;
+        left: 42px;
+    }
+
+    .my-dp img {
+        width: 260px;
+        position: absolute;
+        top: 1px;
+        right: -4px;
+        z-index: 2;
+    } */
+}
+
+@media screen and (max-width:300px) {
+
+    nav ul li {
+        padding: 0px 5px;
+    }
+
+    .icons img {
+        width: 14px;
+    }
+
+    .upper-part {
+        margin: 15px 20px 0px;
+        padding: 3px 0px 23px;
+    }
+
+    .intro .name {
+        font-size: 1.2rem;
+    }
+
+    .border-line {
+        width: 120px;
+    }
+
+    .circle {
+        width: 245px;
+        height: 230px;
+        position: relative;
+        top: 23px;
+    }
+
+    .my-dp img {
+        width: 255px;
+    }
+
+    .lower-part {
+        margin: 0px 20px;
+        padding: 90px 0px 0;
+    }
+
+    .user-needs h3 {
+        font-size: 1.1rem;
+    }
+
+    .img img {
+        width: 85px;
+        height: 52px;
+    }
+
+    .name-and-number h5 {
+        font-size: 0.8rem;
+    }
+
+    .name-and-number p {
+        font-size: 0.7rem;
+    }
+
+    .arrow {
+        right: 0;
+    }
+
+    .project-container hr {
+        width: 230px;
+    }
+
+    .box-parent {
+        margin: 50px 20px;
+        padding: 13px 0px;
+    }
+
+    .type-of-work h4 {
+        font-size: 1.1rem;
+    }
+
+    .type-of-work p {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* 940
+952
+ */

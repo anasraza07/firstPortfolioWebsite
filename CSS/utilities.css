@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Baloo+2&family=IBM+Plex+Sans&family=Murecho&family=Roboto&family=Rubik&display=swap');
+
+p {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: default;
+}
