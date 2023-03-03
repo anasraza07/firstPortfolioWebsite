@@ -99,7 +99,7 @@ nav ul li a {
 .upper-part {
     /* border: 2px solid blue; */
     margin: 30px 65px 0px;
-    padding: 23px 94px;
+    padding: 23px 94px 64px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -364,7 +364,7 @@ nav ul li a {
 
 .box-parent {
     /* border: 2px solid red; */
-    padding: 13px 94px;
+    padding: 13px 94px 40px;
     margin: 50px 65px;
     display: flex;
     flex-wrap: wrap;
