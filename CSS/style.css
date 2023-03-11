@@ -453,7 +453,7 @@ nav ul li a {
     margin: 0 auto;
     padding: 18px 10px;
     position: absolute;
-    top: 412px;
+    top: 411px;
     /* top: 411px;
     left: 142.85px; */
     left: 50%;
@@ -465,7 +465,7 @@ nav ul li a {
 .mid-container-items {
     /* border: 2px solid green; */
     background-color: #363543;
-    width: auto;
+    width: 8%;
     height: 22px;
     /* margin: 0 21px; */
     padding: 10px 41px;
